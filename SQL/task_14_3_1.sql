@@ -14,6 +14,13 @@
 --FROM Students, Achievements
 --WHERE Achievements.StudentId = Students.id AND Achievements.Assesment >5
 
+--SELECT DISTINCT(Country)
+--FROM Students
+
+--SELECT DISTINCT(Sity)
+--FROM Students
+
+
 --SELECT DISTINCT GroupName
 --FROM Groups
 
@@ -21,6 +28,8 @@
 --FROM Subjects, Achievements
 --WHERE Achievements.SubjectId = Subjects.id
 --GROUP BY SubjectName
+
+--Задание 2 ------------------------------------------------------------------------------------------------------
 
 --SELECT LastName + ' '+ FirstName AS FullName, MIN(Assesment) AS MinASSEsment
 --FROM Students, Achievements
@@ -38,3 +47,9 @@
 --SELECT LastName, FirstName, BirthDate, Grants, Email
 --FROM Students
 --WHERE FirstName = 'Jack'
+
+--SELECT LastName + ' '+ FirstName AS FullName, Email
+--FROM Students
+--WHERE Email LIKE 'j%'
+
+--Задание 3 ------------------------------------------------------------------------------
